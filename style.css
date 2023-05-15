@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Proza+Libre:wght@700&display=swap");
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,body {
+    height: 100px;
+    color: #1a1919;
+}
+
+h2 {
+    font-family: "Proza Libre", sans-serif;
+    margin: 0;
+    margin-bottom: 10px;
+    color:#323232;
+}
+
+#logo {
+    font-size: 40px;
+
+}
+
+body {
+    font-family: "Work Sans";
+    margin: 0;
+    padding: 0;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background: rgb(231, 231, 214);
+}
+
+nav {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+   
+}
+
+nav h2 {
+    color:#323232;
+    margin-left: -10px;
+}
+
+
+nav ul li {
+    
+    display: inline-block;
+    padding: 0 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    color:#323232;
+    font-family: "Opens Sans";
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#about-me {
+    display: inline-flex;
+
+}
+
+.portrait {
+    width: 300px;
+    border-radius: 20px;
+    flex-shrink: 0;
+}
+
+.projects {
+    margin-bottom: 40px; 
+}
+
+.projects button:hover {
+    color: black;
+    font-weight: 700;
+}
+
+.list {
+    list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
+    font-size: 20px;
+}
+
+.list img {
+    width: 50%;
+    display: none;
+}
+
+.list ul li button {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+#icons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+i {
+    margin: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}
+
+footer p {
+    font-size: 20px;
+}
+
+.heart {
+    color: red;
+}
